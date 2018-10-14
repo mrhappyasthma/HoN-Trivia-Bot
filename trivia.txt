@@ -1,0 +1,154 @@
+#################################
+# ITEMS                         #
+#################################
+# Please keep this file alphabetized.
+
+## Acolyte's Staff
+
+How much gold does Acolyte's Staff cost?
+2600
+
+## Alacrity Band
+
+How much gold does Alacrity Band cost?
+1200
+
+## Apprentice's Robe
+
+How much gold does Apprentice's Robe cost?
+450
+
+## Arclight Crown
+
+How much gold does Arclight Crown cost?
+5200
+
+## Astrolabe
+
+How much gold does Astrolabe cost?
+1640
+
+## Axe of the Malphai
+
+How much gold does Axe Of The Malphai cost?
+3200
+
+## Beastheart
+
+How much gold does Beastheart cost?
+1100
+
+## Blessed Orb
+
+How much gold does Blessed Orb cost?
+2100
+
+## Bolstering Armband
+
+How much gold does Bolstering Armband cost?
+450
+
+## Bound Eye
+
+How much gold does Bound Eye cost?
+700
+
+## Broadsword
+
+How much gold does Broadsword cost?
+1200
+
+## Crushing Claw
+
+How much gold does Crushing Claws cost?
+150
+
+## Duck Boots
+
+How much gold does Duck Boots cost?
+150
+
+## Dust of Revelation
+
+How much gold does Dust Of Revelation cost?
+200
+
+## Fleetfeet
+
+How much gold does Fleetfeet cost?
+450
+
+## Gloves of the Swift
+
+How much gold does Gloves Of The Swift cost?
+500
+
+## Guardian Ring
+
+How much gold does Guardian Ring cost?
+175
+
+## Health Potion
+
+How much gold does Health Potion cost?
+100
+
+## Helm of the Victim
+
+How much gold does Helm Of The Victim cost?
+900
+
+## Homecoming Stone
+
+How much gold does Homecoming Stone cost?
+50
+
+## Hungry Spirit
+
+How much gold does Hungry Spirit cost?
+900
+
+## Iron Buckler
+
+How much gold does Iron Buckler cost?
+225
+
+## Lifetube
+
+How much gold does Lifetube cost?
+875
+
+## Luminous Prism
+
+How much gold does Luminous Prism cost?
+1500
+
+## Perpetual Cogwheel
+
+How much gold does Perpetual Cogwheel cost?
+1325
+
+## Rejuvenation Potion
+
+How much gold does Rejuvenation Potion cost?
+400
+
+## Sand Scepter
+
+How much gold does Sand Scepter cost?
+2800
+
+## Sorcery Boots
+
+How much gold does Sorcery Boots cost?
+1915
+
+## Voltstone
+
+How much gold does Voltstone cost?
+600
+
+## Ward of Sight
+
+How much gold does Ward Of Sight cost?
+100
