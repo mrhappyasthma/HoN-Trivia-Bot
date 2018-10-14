@@ -20,7 +20,7 @@ For example:
   # Optional
   trivia_timeout = 120  # Number of seconds to wait before stopping trivia, if
                         # no one enters any text in the chat channel.
-  trivia_file = 'my_trivia_file'  # Pickled file with the questions to ask.
+  trivia_dir = 'path/to/trivia'  # Path to directory with the question files.
 
 
 Once this is configured, you can join the same channel as your bot, using one of
@@ -32,6 +32,18 @@ the accounts on the owners list, and issue the following commands:
 They will start and stop the trivia bot accordingly. By default, the bot will
 loop through all the questions once it reaches the end. Then it will shuffle
 again and start at the top of the list.
+
+The trivia files are just simple text files in the format:
+
+  Question goes here?
+  answer
+
+  # This file can support comments also.
+  Another question goes here?
+  answer2
+
+To reload the questions while the bot is running, you can use the
+`!trivia reload` command.
 """
 import os
 import pickle
@@ -57,8 +69,11 @@ class Trivia:
     self.load()
 
   def load(self):
-    if os.path.exists( self.bot.config.trivia_file ):
-      self.parseFile(self.bot.config.trivia_file)
+    directory = self.bot.config.trivia_dir
+    if os.path.exists(directory):
+      for filename in os.listdir(directory):
+        if filename.endswith('.txt'):
+          self.parseFile(directory + '/' + filename)
     else:
       print 'Error: Trivia file {} not found'.format(self.bot.config.trivia_file)
       self.questions = []
