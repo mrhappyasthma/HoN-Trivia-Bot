@@ -53,6 +53,7 @@ import time
 from hon.packets import ID
 from random import shuffle
 
+
 class Trivia:
   def __init__(self, bot):
     self.bot = bot
@@ -68,6 +69,7 @@ class Trivia:
     self.last_action = 0  # Used by the threads threads to handle timeout.
     self.load()
 
+
   def load(self):
     directory = self.bot.config.trivia_dir
     if os.path.exists(directory):
@@ -77,6 +79,7 @@ class Trivia:
     else:
       print 'Error: Trivia file {} not found'.format(self.bot.config.trivia_file)
       self.questions = []
+
 
   def parseFile(self, file_path):
     """
@@ -121,6 +124,7 @@ class Trivia:
         continue
       time.sleep(1)
 
+
   def recvMsg(self, bot, origin, data):
     t = time.time()
     self.last_action = t
@@ -133,10 +137,12 @@ class Trivia:
       self.nickname_of_answerer = nickname
       self.answered = True
 
+
   def sendMsg(self, message):
     """Send messages in HoN chat channel on behalf of the trivia."""
     chan = self.bot.chan2id[self.channel]
-    self.bot.write_packet( ID.HON_SC_CHANNEL_EMOTE, "Trivia: ^w" + message, chan )
+    self.bot.write_packet(ID.HON_SC_CHANNEL_EMOTE, 'Trivia: ^w' + message, chan)
+
 
   def askQuestionAndShowHints(self):
     """
@@ -188,21 +194,22 @@ class Trivia:
         answered = self.answered
         if answered:
           nickname = self.nickname_of_answerer
-          self.sendMsg( "^y{0} ^wgot it right! The answer was: ^g{1}".format( nickname, self.current['answer'] ) )
-          print ( "Trivia - Nick: {0} Question: {1} Answer: {2}".format( nickname, self.current['question'], self.current['answer'] ) )
+          self.sendMsg('^y{0} ^wgot it right! The answer was: ^g{1}'.format( nickname, self.current['answer'] ) )
+          print ('Trivia - Nick: {0} Question: {1} Answer: {2}'.format( nickname, self.current['question'], self.current['answer'] ) )
           # TODO(mrhappyasthma): Scoring.
           break
         if i < (len(hint_indices) - 1):
           hint_chars[hint_index] = self.current['answer'][hint_index]
           self.sendMsg(''.join(hint_chars))
         else:
-          print ( "Trivia - Unanswered Question: {0} Answer: {1}".format(self.current['question'], self.current['answer'] ) )
-          self.sendMsg( "^rNo one ^wgot it. ^t:'( ^wThe answer was: ^g{0}".format(self.current['answer'] ) )
+          print ('Trivia - Unanswered Question: {0} Answer: {1}'.format(self.current['question'], self.current['answer'] ) )
+          self.sendMsg("^rNo one ^wgot it. ^t:'(^wThe answer was: ^g{0}".format(self.current['answer'] ) )
       time.sleep(3)
-      self.sendMsg( "Get ready for the next question!" )
+      self.sendMsg('Get ready for the next question!')
       self.answered = False
       self.nickname_of_answerer = None
       time.sleep(10)
+
 
   def nextQuestion(self):
     """Get the next question from the shuffled list. If we are out, reset first."""
@@ -214,12 +221,12 @@ class Trivia:
       print 'Trivia - Asking "{}" with {} questions left and {} used'.format(question, len(self.questions), len(self.used_questions))
       return
 
-    if self.current:
-      self.used_questions.append(self.current)
     self.current = self.questions.pop()
+    self.used_questions.append(self.current)
     question = self.current['question']
     print 'Trivia - Asking "{}" with {} questions left and {} used'.format(question, len(self.questions), len(self.used_questions))
     self.sendMsg(question)
+
 
   def start(self):
     """Starts the trivia bot."""
@@ -228,7 +235,7 @@ class Trivia:
       return
     self.running = True
     self.reset()
-    self.sendMsg("Started")
+    self.sendMsg('Started')
     time.sleep(3)
     if self.bot.config.trivia_timeout:
       if not self.timeout_thread:
@@ -238,6 +245,7 @@ class Trivia:
       self.hint_thread = threading.Thread(target=self.askQuestionAndShowHints)
       self.hint_thread.start()
 
+
   def stop(self, activity=False):
     """Stops the trivia bot."""
     running = self.running
@@ -246,9 +254,10 @@ class Trivia:
     self.running = False
     self.reset()
     if activity:
-      self.sendMsg("Stopped due to inactivity")
+      self.sendMsg('Stopped due to inactivity')
     else:
-      self.sendMsg("Stopping...")
+      self.sendMsg('Stopping...')
+
 
   def reset(self):
     """Reset any used questions, and shuffle again."""
@@ -258,6 +267,18 @@ class Trivia:
     self.last_action = 0
     self.answered = False
     self.nickname_of_answerer = None
+
+
+  def reload(self):
+    """
+    Clear out all the existing questions and reload them fresh from the
+    source files.
+    """
+    self.sendMsg('Reloading...')
+    self.reset()
+    self.questions = []
+    self.load()
+    self.sendMsg('Reload complete.')
 
 
 def receivemessage(bot, origin, data):
@@ -279,20 +300,26 @@ receivemessage.thread = True
 
 
 def trivia(bot, input):
-  """Initialize the bot with the '!trivia start' and '!trivia stop' commands."""
-  if input.origin[2] != bot.chan2id[bot.trivia.channel]:
-    bot.say("^wThis only works in the HoNTrivia channel.")
+  """Initialize the bot with the trivia commands."""
+  if not input.admin:
+    bot.say('^wOnly an admin can operate the trivia bot.')
     return
-  if not input.group(2):
-    bot.say("^wAccepted arguments are ^gstart ^wand ^rstop^w.")
+  if input.origin[2] != bot.chan2id[bot.trivia.channel]:
+    bot.say('^wThis only works in the HoNTrivia channel.')
+    return
+  command = input.group(2)
+
+  if command == 'start':
+    bot.trivia.start()
+  elif command == 'stop':
+    bot.trivia.stop()
+  elif command == 'reset':
+    bot.trivia.reset()
+    bot.trivia.say('^wReset complete.')
+  elif command == 'reload':
+    bot.trivia.reload()
   else:
-    if input.group(2) == "start":
-      bot.trivia.start()
-    elif input.group(2) == "stop":
-      if input.admin:
-        bot.trivia.stop()
-      else:
-        bot.say("^wOnly an admin can use stop. It will stop automatically after inactivity.")
+    bot.say('^wAccepted arguments are ^gstart^w, ^rstop^w, ^creset^w, and ^yreload^w.')
 trivia.commands = ['trivia']
 
 
