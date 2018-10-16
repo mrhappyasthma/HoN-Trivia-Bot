@@ -3,152 +3,787 @@
 #################################
 # Please keep this file alphabetized.
 
-## Acolyte's Staff
+## Abyssal Skull
 
-How much gold does Acolyte's Staff cost?
+How much does Abyssal Skull cost?
+2000
+
+## Acolyte"s Staff
+
+How much does Acolyte"s Staff cost?
 2600
 
 ## Alacrity Band
 
-How much gold does Alacrity Band cost?
+How much does Alacrity Band cost?
 1200
 
-## Apprentice's Robe
+## Alchemist"s Bones
 
-How much gold does Apprentice's Robe cost?
+How much does Alchemist"s Bones cost?
+1950
+
+## Amulet of Exile
+
+How much does Amulet of Exile cost?
+465
+
+## Apprentice"s Robe
+
+How much does Apprentice"s Robe cost?
 450
+
+## Arcana
+
+How much does Arcana cost?
+1575
+
+## Arcane Bomb
+
+How much does Arcane Bomb cost?
+1790
 
 ## Arclight Crown
 
-How much gold does Arclight Crown cost?
+How much does Arclight Crown cost?
 5200
+
+## Assassin"s Shroud
+
+How much does Assassin"s Shroud cost?
+3200
 
 ## Astrolabe
 
-How much gold does Astrolabe cost?
-1640
+How much does Astrolabe cost?
+1440
 
 ## Axe of the Malphai
 
-How much gold does Axe Of The Malphai cost?
+How much does Axe of the Malphai cost?
 3200
+
+## Barbed Armor
+
+How much does Barbed Armor cost?
+2200
+
+## Barrier Idol
+
+How much does Barrier Idol cost?
+3490
 
 ## Beastheart
 
-How much gold does Beastheart cost?
+How much does Beastheart cost?
 1100
+
+## Behemoth"s Heart
+
+How much does Behemoth"s Heart cost?
+5100
 
 ## Blessed Orb
 
-How much gold does Blessed Orb cost?
+How much does Blessed Orb cost?
 2100
+
+## Blight Stones
+
+How much does Blight Stones cost?
+75
+
+## Blood Chalice
+
+How much does Blood Chalice cost?
+625
+
+## Bloodborne Maul
+
+How much does Bloodborne Maul cost?
+5000
 
 ## Bolstering Armband
 
-How much gold does Bolstering Armband cost?
+How much does Bolstering Armband cost?
 450
+
+## Bottle of Tears
+
+How much does Bottle of Tears cost?
+600
 
 ## Bound Eye
 
-How much gold does Bound Eye cost?
+How much does Bound Eye cost?
 700
+
+## Branded Sabre
+
+How much does Branded Sabre cost?
+2000
 
 ## Broadsword
 
-How much gold does Broadsword cost?
+How much does Broadsword cost?
 1200
 
-## Crushing Claw
+## Brutalizer
 
-How much gold does Crushing Claws cost?
+How much does Brutalizer cost?
+3450
+
+## Charged Hammer
+
+How much does Charged Hammer cost?
+4600
+
+## Codex
+
+How much does Codex cost?
+3000
+
+## Corrupted Sword
+
+How much does Corrupted Sword cost?
+4000
+
+## Crushing Claws
+
+How much does Crushing Claws cost?
 150
+
+## Daemonic Breastplate
+
+How much does Daemonic Breastplate cost?
+5425
+
+## Dancing Blade
+
+How much does Dancing Blade cost?
+3200
+
+## Dawnbringer
+
+How much does Dawnbringer cost?
+6600
+
+## Doom Bringer
+
+How much does Doom Bringer cost?
+5600
+
+## Dreamcatcher
+
+How much does Dreamcatcher cost?
+2600
 
 ## Duck Boots
 
-How much gold does Duck Boots cost?
+How much does Duck Boots cost?
 150
 
 ## Dust of Revelation
 
-How much gold does Dust Of Revelation cost?
+How much does Dust of Revelation cost?
 200
+
+## Elder Parasite
+
+How much does Elder Parasite cost?
+2000
+
+## Energizer
+
+How much does Energizer cost?
+1515
+
+## Far Sight - Neutrals...
+
+How much does Far Sight - Neutrals... cost?
+100
+
+## Firebrand
+
+How much does Firebrand cost?
+2200
 
 ## Fleetfeet
 
-How much gold does Fleetfeet cost?
+How much does Fleetfeet cost?
 450
+
+## Flying Courier
+
+How much does Flying Courier cost?
+250
+
+## Fortified Bracer
+
+How much does Fortified Bracer cost?
+490
+
+## Frostburn
+
+How much does Frostburn cost?
+4400
+
+## Frostfield Plate
+
+How much does Frostfield Plate cost?
+1200
+
+## Frostwolf"s Skull
+
+How much does Frostwolf"s Skull cost?
+5100
+
+## Frozen Light
+
+How much does Frozen Light cost?
+4400
+
+## Genjuro
+
+How much does Genjuro cost?
+6400
+
+## Geometer"s Bane
+
+How much does Geometer"s Bane cost?
+5100
+
+## Ghost Marchers
+
+How much does Ghost Marchers cost?
+1500
 
 ## Gloves of the Swift
 
-How much gold does Gloves Of The Swift cost?
+How much does Gloves of the Swift cost?
 500
+
+## Glowstone
+
+How much does Glowstone cost?
+1200
+
+## Grave Locket
+
+How much does Grave Locket cost?
+825
+
+## Grimoire of Power
+
+How much does Grimoire of Power cost?
+5100
+
+## Ground Courier
+
+How much does Ground Courier cost?
+200
 
 ## Guardian Ring
 
-How much gold does Guardian Ring cost?
+How much does Guardian Ring cost?
 175
+
+## Harkon"s Blade
+
+How much does Harkon"s Blade cost?
+4775
 
 ## Health Potion
 
-How much gold does Health Potion cost?
+How much does Health Potion cost?
 100
+
+## Hellflower
+
+How much does Hellflower cost?
+4725
+
+## Helm of the Black Le...
+
+How much does Helm of the Black Le... cost?
+2175
 
 ## Helm of the Victim
 
-How much gold does Helm Of The Victim cost?
+How much does Helm of the Victim cost?
 900
 
 ## Homecoming Stone
 
-How much gold does Homecoming Stone cost?
+How much does Homecoming Stone cost?
 50
 
 ## Hungry Spirit
 
-How much gold does Hungry Spirit cost?
+How much does Hungry Spirit cost?
 900
+
+## Hypercrown
+
+How much does Hypercrown cost?
+4200
+
+## Icebrand
+
+How much does Icebrand cost?
+2200
+
+## Icon of the Goddess
+
+How much does Icon of the Goddess cost?
+3250
+
+## Insanitarius
+
+How much does Insanitarius cost?
+2750
+
+## Ioyn Stone
+
+How much does Ioyn Stone cost?
+175
 
 ## Iron Buckler
 
-How much gold does Iron Buckler cost?
+How much does Iron Buckler cost?
 225
+
+## Iron Shield
+
+How much does Iron Shield cost?
+525
+
+## Jade Spire
+
+How much does Jade Spire cost?
+1840
+
+## Kuldra"s Sheepstick
+
+How much does Kuldra"s Sheepstick cost?
+5425
+
+## Lex Talionis
+
+How much does Lex Talionis cost?
+1275
 
 ## Lifetube
 
-How much gold does Lifetube cost?
-875
+How much does Lifetube cost?
+850
+
+## Lightbrand
+
+How much does Lightbrand cost?
+2200
+
+## Logger"s Hatchet
+
+How much does Logger"s Hatchet cost?
+200
 
 ## Luminous Prism
 
-How much gold does Luminous Prism cost?
+How much does Luminous Prism cost?
 1500
+
+## Madfred"s Brass Knuc...
+
+How much does Madfred"s Brass Knuc... cost?
+1200
+
+## Major Totem
+
+How much does Major Totem cost?
+540
+
+## Mana Battery
+
+How much does Mana Battery cost?
+200
+
+## Mana Potion
+
+How much does Mana Potion cost?
+50
+
+## Manatube
+
+How much does Manatube cost?
+850
+
+## Marchers
+
+How much does Marchers cost?
+500
+
+## Mark of the Novice
+
+How much does Mark of the Novice cost?
+150
+
+## Master"s Legacy
+
+How much does Master"s Legacy cost?
+6200
+
+## Merrick"s Bounty
+
+How much does Merrick"s Bounty cost?
+200
+
+## Mighty Blade
+
+How much does Mighty Blade cost?
+1000
+
+## Minor Totem
+
+How much does Minor Totem cost?
+50
+
+## Mock of Brilliance
+
+How much does Mock of Brilliance cost?
+4750
+
+## Mystic Vestments
+
+How much does Mystic Vestments cost?
+500
+
+## Neophyte"s Book
+
+How much does Neophyte"s Book cost?
+1000
+
+## Nome"s Wisdom
+
+How much does Nome"s Wisdom cost?
+2100
+
+## Null Stone
+
+How much does Null Stone cost?
+4100
+
+## Nullfire Blade
+
+How much does Nullfire Blade cost?
+3300
+
+## Orb of Zamos
+
+How much does Orb of Zamos cost?
+350
 
 ## Perpetual Cogwheel
 
-How much gold does Perpetual Cogwheel cost?
+How much does Perpetual Cogwheel cost?
 1325
+
+## Pickled Brain
+
+How much does Pickled Brain cost?
+950
+
+## Plated Greaves
+
+How much does Plated Greaves cost?
+1300
+
+## Platemail
+
+How much does Platemail cost?
+1400
+
+## Portal Key
+
+How much does Portal Key cost?
+2250
+
+## Post Haste
+
+How much does Post Haste cost?
+2600
+
+## Power Supply
+
+How much does Power Supply cost?
+300
+
+## Pretender"s Crown
+
+How much does Pretender"s Crown cost?
+165
+
+## Punchdagger
+
+How much does Punchdagger cost?
+500
+
+## Puzzlebox
+
+How much does Puzzlebox cost?
+2975
+
+## Quickblade
+
+How much does Quickblade cost?
+1000
+
+## Refreshing Ornt
+
+How much does Refreshing Ornt cost?
+550
 
 ## Rejuvenation Potion
 
-How much gold does Rejuvenation Potion cost?
-400
+How much does Rejuvenation Potion cost?
+300
+
+## Restoration Stone
+
+How much does Restoration Stone cost?
+5150
+
+## Riftshards
+
+How much does Riftshards cost?
+2625
+
+## Ring of Sorcery
+
+How much does Ring of Sorcery cost?
+1415
+
+## Ring of the Teacher
+
+How much does Ring of the Teacher cost?
+500
+
+## Ringmail
+
+How much does Ringmail cost?
+550
+
+## Runed Cleaver
+
+How much does Runed Cleaver cost?
+4075
+
+## Sacrificial Stone
+
+How much does Sacrificial Stone cost?
+2025
 
 ## Sand Scepter
 
-How much gold does Sand Scepter cost?
-2800
+How much does Sand Scepter cost?
+2000
+
+## Savage Mace
+
+How much does Savage Mace cost?
+4800
+
+## Scarab
+
+How much does Scarab cost?
+325
+
+## Searing Light
+
+How much does Searing Light cost?
+4400
+
+## Shaman"s Headdress
+
+How much does Shaman"s Headdress cost?
+2050
+
+## Shield of the Five
+
+How much does Shield of the Five cost?
+800
+
+## Shieldbreaker
+
+How much does Shieldbreaker cost?
+2600
+
+## Shrunken Head
+
+How much does Shrunken Head cost?
+3900
+
+## Slayer
+
+How much does Slayer cost?
+2200
+
+## Snake Bracelet
+
+How much does Snake Bracelet cost?
+1100
+
+## Sol"s Bulwark
+
+How much does Sol"s Bulwark cost?
+1725
 
 ## Sorcery Boots
 
-How much gold does Sorcery Boots cost?
+How much does Sorcery Boots cost?
 1915
+
+## Soulscream Ring
+
+How much does Soulscream Ring cost?
+440
+
+## Soultrap
+
+How much does Soultrap cost?
+700
+
+## Spell Sunder
+
+How much does Spell Sunder cost?
+2825
+
+## Spellshards
+
+How much does Spellshards cost?
+2575
+
+## Spiked Bola
+
+How much does Spiked Bola cost?
+4400
+
+## Spyglass
+
+How much does Spyglass cost?
+1750
+
+## Staff of the Master
+
+How much does Staff of the Master cost?
+4200
+
+## Steamboots
+
+How much does Steamboots cost?
+1450
+
+## Steamstaff
+
+How much does Steamstaff cost?
+800
+
+## Stormspirit
+
+How much does Stormspirit cost?
+2675
+
+## Striders
+
+How much does Striders cost?
+700
+
+## Sustainer
+
+How much does Sustainer cost?
+1700
+
+## Sword of the High
+
+How much does Sword of the High cost?
+3400
+
+## Symbol of Rage
+
+How much does Symbol of Rage cost?
+6000
+
+## Tablet of Command
+
+How much does Tablet of Command cost?
+1800
+
+## Thunderclaw
+
+How much does Thunderclaw cost?
+2900
+
+## Trinket of Restoration
+
+How much does Trinket of Restoration cost?
+350
+
+## Twin Blades
+
+How much does Twin Blades cost?
+3275
+
+## Ultor"s Heavy Plate
+
+How much does Ultor"s Heavy Plate cost?
+4250
+
+## Veiled Rot
+
+How much does Veiled Rot cost?
+100
+
+## Void Talisman
+
+How much does Void Talisman cost?
+1340
 
 ## Voltstone
 
-How much gold does Voltstone cost?
+How much does Voltstone cost?
 600
+
+## Ward of Revelation
+
+How much does Ward of Revelation cost?
+100
 
 ## Ward of Sight
 
-How much gold does Ward Of Sight cost?
+How much does Ward of Sight cost?
 100
+
+## Warhammer
+
+How much does Warhammer cost?
+1600
+
+## Warpcleft
+
+How much does Warpcleft cost?
+1800
+
+## Whispering Helm
+
+How much does Whispering Helm cost?
+1800
+
+## Wind Whistle
+
+How much does Wind Whistle cost?
+200
+
+## Wingbow
+
+How much does Wingbow cost?
+5900
